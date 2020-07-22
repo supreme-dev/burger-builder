@@ -8,7 +8,9 @@ import NavigationItems from './NavigationItems';
 const toolbar = (props) => (
     <header className="Toolbar">
         <div>Menu</div>
-        <Logo />
+        <div className="Logo">
+          <Logo />
+        </div>
         <nav>
             <NavigationItems />
         </nav>
