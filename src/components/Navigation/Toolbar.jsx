@@ -1,10 +1,16 @@
 // vendor import
 import React from 'react';
 
+// local import
+import Logo from '../Logo/Logo';
+
 const toolbar = (props) => (
-    <header>
+    <header className="Toolbar">
         <div>Menu</div>
-        <div>Logo</div>
+        <Logo />
+        <nav>
+            ...
+        </nav>
     </header>
 );
 

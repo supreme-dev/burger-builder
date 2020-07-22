@@ -1,12 +1,13 @@
 // vendor import
 import React from 'react';
 
-// local import
+// local imports
 import Aux from '../../hoc/aux';
+import Toolbar from '../Navigation/Toolbar';
 // layout
 const layout = (props) => (
   <Aux>
-    <div>Toolbar, Sidebar, backdrop</div>
+    <Toolbar />
     <main className="layout">{props.children}</main>
   </Aux>
 );
