@@ -5,9 +5,19 @@
 @import './Burger/BuildControls/buildcontrols';
 @import './backdrop';
 @import './modal';
+@import './shared';
 
 
 @font-face {
     font-family: 'Lora Bold';
     src: url('../Fonts/Lora/Lora-Bold.ttf');
+}
+
+@font-face {
+    font-family: 'Lora Medium';
+    src: url('../Fonts/Lora/Lora-Medium.ttf');
+}
+
+body {
+    font-family: 'Lora Medium';
 }
