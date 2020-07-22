@@ -11,12 +11,19 @@
     padding: 0 20px; //top and bottom, left and right respectively
     box-sizing: border-box;
     z-index: 90%;
+
+    .Logo {
+        height: 100%
+    }
 }
 
-.Toolbar nav {
+ nav {
     height: 100%;
 }
 
-.Logo {
-    height: 80%
+@media (max-width: 500px) {
+    .DesktopOnly {
+        display: none;
+    }
 }
+
