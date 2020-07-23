@@ -9,6 +9,7 @@ import Modal from '../../components/UI/Modal';
 import OrderSummary from '../../components/Burger/OrderSummary/OrderSummary';
 import axios from '../../axios-orders';
 import Spinner from '../../components/UI/Spinner';
+import withErrorHandler from '../../hoc/witherrorhandler';
 
 // global price
 const INGREDIENTS_PRICE = {
@@ -156,4 +157,4 @@ class BurgerBuilder extends React.Component {
   }
 }
 // export
-export default BurgerBuilder;
+export default withErrorHandler(BurgerBuilder, axios);
